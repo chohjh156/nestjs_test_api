@@ -1,4 +1,4 @@
-import { Controller, Request, Body, Query, Get, HttpCode, HttpStatus } from '@nestjs/common';
+import { Controller, Request, Query, Get, HttpCode, HttpStatus } from '@nestjs/common';
 import { ApiTags, ApiBearerAuth } from '@nestjs/swagger';
 import { LocusService } from './locus.service';
 import { Roles } from '../auth/decorators';

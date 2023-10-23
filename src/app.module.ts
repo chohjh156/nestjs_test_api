@@ -43,6 +43,5 @@ export class AppModule {
     @Inject(ttlConfig.KEY)
     private ttlConf: ConfigType<typeof ttlConfig>
   ) {
-    // console.log(dbConf.entities);
   }
 }
